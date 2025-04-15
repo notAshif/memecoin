@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body, button,a{
+    cursor: url('/public/favicon.ico'), auto;
+}
