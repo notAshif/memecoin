@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import image6 from '../assets/image6.avif'
+import left from '../assets/left.avif'
+import right from '../assets/right.avif'
 
 const Stage = [
     {
@@ -106,12 +108,12 @@ const RoadmapSection = () => {
                         <button
                             onClick={handlePrev}
                             className="w-12 h-12 rounded-full bg-white hover:scale-110 transition-transform shadow-md">
-                            <img src="/src/assets/left.avif" alt="left" className="w-full h-full object-contain" />
+                            <img src={left} alt="left" className="w-full h-full object-contain" />
                         </button>
                         <button
                             onClick={handleNext}
                             className="w-12 h-12 rounded-full bg-white hover:scale-110 transition-transform shadow-md">
-                            <img src="/src/assets/right.avif" alt="right" className="w-full h-full object-contain" />
+                            <img src={right} alt="right" className="w-full h-full object-contain" />
                         </button>
                     </div>
 
